@@ -19,7 +19,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install dependencies
-        run: npm ci || true   
+        run: npm install --no-audit --no-fund || true
 
       - name: Publish to npm
         env:
