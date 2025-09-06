@@ -1,9 +1,15 @@
 {
   "name": "@iamarkadyt/aws-auth",
   "version": "2.2.4",
-  "description": "POC Nathan Accacio",
-  "main": "index.js",
+  "description": "Allows you to programmatically authenticate into AWS accounts through IAM roles",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "bin": {
+    "aws-auth": "./bin/aws-auth.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
   }
 }
