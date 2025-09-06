@@ -1,0 +1,9 @@
+{
+  "name": "@iamarkadyt/aws-auth",
+  "version": "2.2.4",
+  "description": "POC Nathan Accacio",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
